@@ -5,61 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  
-  <style>
-    table, th, td {
-      border:1px solid black;
-    }
-    </style>
-  <body style="background-color: rgb(255, 255, 255)">
-    <h1>A basic HTMl Table</h1>
-    <hr />
-    <table style="width:25%">
-        <tr> 
-            <th>Sirket</th>
-            <th>Qurucusu</th>
-            <th>Contry</th>       
-        </tr>
-        <tr>
-            <td>Qarasu</td>
-            <td>Sukran Sirinov</td>
-            <td>Sirvan</td>
-        </tr>
-        <tr>
-            <td>Gilan</td>
-            <td> Tapa bilmedim</td>
-            <td>Baku</td>
-            <td></td>
-        </tr>
-        <hr>
-    </table>
-    <hr>
-    <form action="https://httpbin.org/post" method="post">
-<label for="Ad">Ad:</label><br>
-<input type="text" id="Ad:" name="Ad:" value="Ad:"><br>
-<label for="Soyad:">Soyad:</label><br>
-<input type="text" id="Soyad:" name="Soyad:" value="Soyad:"><br>
-<label for="Password">Password: </label><br>
-<input type="password" name="Password" id="Password" value="Password"><br>
-<button type="Register">Register</button>
-<hr>
-
-<img src="brown-bear-cub-waving-Kevin-Dietrich-570x375.jpg" alt="Ayi">
-<h1 style="background-color:DodgerBlue;"> BU gorduyunuz ayidir</h1>
-<p>Ayi mesede yasayir </p>
-<p><b>Ayilar vehsi heyvanlardir</b></p>
-<p>Ayi seklinin linki</p>
-<a href="https://www.google.com/search?q=ayi&rlz=1C1GCEA_enAZ998AZ998&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiHpaDcv6T3AhW4SPEDHf8iCCkQ_AUoAXoECAIQAw&biw=1366&bih=657&dpr=1#imgrc=-v8X1e8cxlHFZM&imgdii=MDYpkD1_j5WqTM">Ayi</a>
-    </form>
-    <hr>
-    <h2>List</h2>
-    <ol>
-      <li>Cofe</li>
-      <li>Cay</li>
-      <li>Yasil cay</li>
-    </ol>
-
-
+  <body>
+    <div class="Text">
+      <h3>Application form</h3>
+      <label for="Ad:">Ad:</label><br />
+      <input type="text" name="Ad:" id="Ad:" /><br />
+      <label for="Soyad">Soyad:</label><br />
+      <input type="text" name="Soyad:" id="Soyad:" /><br />
+      <label for="sifre">Şifrə:</label><br />
+      <input type="password" name="sifre" id="Sifre" /><br />
+      <p>Cinsiyyətinizi seçin:</p>
+      <label for="K">K</label>
+      <input type="radio" name="Gender" id="K" />
+      <label for="Q">Q</label>
+      <input type="radio" name="Gender" id="Q" />
+      <p>Bitirdiyiniz təhsil dərəcələrini seçin:</p>
+      <input type="radio" name="orta" id="orta:" />
+      <label for="Orta">Orta:</label><br />
+      <input type="radio" name="bakalavr" id="bakalavr" />
+      <label for="Bakalavr">Bakalavr:</label><br />
+      <input type="radio" name="magist" id="magist" />
+      <label for="Magistr">Magistr:</label><br />
+      <input type="radio" name="doktor" id="doktor" />
+      <label for="Doktor">Doktor:</label><br />
+      <label for="Yas">Yaş:</label><br />
+      <input type="number" name="yas" id="yas" min="9" max="100" /><br />
+      <label for="Boy">Boy:</label><br />
+      <input type="number" name="boy" id="boy" /><br />
+      <label for="Ceki">Çəki:</label><br />
+      <input type="number" name="ceki" id="ceki" /><br />
+      <button>Təsdiqlə</button>
+    </div>
   </body>
 </html>
